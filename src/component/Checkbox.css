@@ -1,0 +1,7 @@
+.checkbox-box {
+  width: 22px;
+  height: 22px;
+  border: solid black 1px;
+  display: inline-block; /* or block */
+  text-align: center;
+}
