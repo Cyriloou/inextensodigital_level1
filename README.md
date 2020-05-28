@@ -27,42 +27,59 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## [front/react] Checkboxes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Instructions
 
-## Learn More
+Build a simple **React** application to handle multiple selection in lists.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### The subject
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Display 5 checkboxes
+2. The first one will select/unselect every checkboxes
+3. The others will select themselves
+4. Checking all items will select the "select all" checkbox automatically
 
-### Code Splitting
+**Some possible cases:**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```m
+[ ] Select all
 
-### Analyzing the Bundle Size
+[ ] Item 1
+[ ] Item 2
+[ ] Item 3
+[ ] Item 4
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```m
+[x] Select all
 
-### Making a Progressive Web App
+[x] Item 1
+[x] Item 2
+[x] Item 3
+[x] Item 4
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```m
+[ ] Select all
 
-### Advanced Configuration
+[x] Item 1
+[ ] Item 2
+[x] Item 3
+[x] Item 4
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Guidelines
 
-### Deployment
+- Use React.js to render the view
+- Push your code to a Github repository
+- Document what you've done
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Evaluation
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Quality of the code
+- Scalability of the algorithm
+- Usage of good practices and modern javascript
